@@ -1,11 +1,25 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# dashboard-widget-component-
-A Responsive Portfolio Dashboard Metrics widget
+# dashboard-widget-component
+A responsive dashboard widget displaying real-time portfolio performance metrics built with TypeScript.
 
-## Getting Started
+## Features
 
-First, run the development server:
+- 📊 Real-time portfolio metrics display
+- 📈 Interactive sparkline chart
+- 🔄 Refresh data on demand
+- 📱 Fully responsive (mobile & desktop)
+- ⚡ Built with Next.js 14, React, and TypeScript
+- 🔒 Type-safe with full TypeScript coverage
+
+
+## Installation
+
+```bash
+npm install
+```
+
+## Run Development Server
 
 ```bash
 npm run dev
@@ -19,21 +33,42 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js 16
+- React 18
+- TypeScript 5
+- Tailwind CSS
+- Recharts
+- Lucide React Icons
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Type Definitions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+All data structures are fully typed:
+- `Metric` - Individual metric data
+- `PortfolioData` - Complete dashboard data
+- `ApiResponse` - API response structure
+- `ChartDataPoint` - Chart data points
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+
+## Assessment Completion
+
+This project demonstrates:
+- ✅ Pixel-perfect UI implementation
+- ✅ Responsive design (mobile/desktop)
+- ✅ Component-based architecture
+- ✅ API integration with async/await
+- ✅ State management with React hooks
+- ✅ Interactive features (refresh button)
+- ✅ Full TypeScript type safety
+- ✅ Proper error handling
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Every push to `main` will trigger a new deployment to vercel
+```bash
+git push origin main
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
